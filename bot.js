@@ -31,7 +31,7 @@ message.channel.send(`${args}`);
 bot1.login(process.env.spam1);
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 const bot2 = new Discord.Client();
-bot1.on('ready', () => {
+bot2.on('ready', () => {
   console.log(`Logged in as ${bot2.user.tag}!`);
 });
 bot2.on('ready', async () => {
