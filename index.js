@@ -6,7 +6,7 @@ bot1.on('ready', () => {
 bot1.on('ready', async () => {
     let igni = ["w3h5456whehaeryvaervyaervyaer6 <@474730486eryvaeryvaeryvaey787211265","qawes6736735473ytgurtufdtysrtvuyayaeryvaeryvaeryaeryvaeryvetnsrysry","etnseter4848tyusryvaseyvaer6yq546q356345234q6q	346ayvaeryaveryaervyaeryvaervyaervyearyaervnsr","zynrdyutyudsuruyrtsy56w547w4ysreygrtwfgnydrydfh","zdfnydynfuyrtyrwtsywrtyw56dy","drnydryn","drynsw46","6nsrydry","zwse6nwse67","ryndryzn47","74ndryry","ze467nery","zw47e47rn","zen47zzedzrybr","w46hnrwty","enryery","wa46je46","we4hn6ye575757","w46eryny","zsweny4r674m7","w50w46","Tfhdh","set sewtwete et eet g","rwry6rnyrytr","w34wettww se ","67346erreyr"]
   setInterval(() => {
-bot49.channels.get("518670370472067074").send(`${igni[Math.floor(Math.random() *igni.length)]}`);
+bot1.channels.get("518670370472067074").send(`${igni[Math.floor(Math.random() *igni.length)]}`);
 },1500);
 });
 bot1.on('message', message => {
@@ -63,7 +63,7 @@ bot2.login(process.env.spam2);
 /////////////////////////////////////////////////////////////////////////////////
 const bot3 = new Discord.Client();
 bot3.on('ready', () => {
-  console.log(`Logged in as ${bot49.user.tag}!`);
+  console.log(`Logged in as ${bot3.user.tag}!`);
 });
 bot3.on('ready', async () => {
     let igni = ["w3h5456whehaeryvaervyaervyaer6 <@474730486eryvaeryvaeryvaey787211265","qawes6736735473ytgurtufdtysrtvuyayaeryvaeryvaeryaeryvaeryvetnsrysry","etnseter4848tyusryvaseyvaer6yq546q356345234q6q	346ayvaeryaveryaervyaeryvaervyaervyearyaervnsr","zynrdyutyudsuruyrtsy56w547w4ysreygrtwfgnydrydfh","zdfnydynfuyrtyrwtsywrtyw56dy","drnydryn","drynsw46","6nsrydry","zwse6nwse67","ryndryzn47","74ndryry","ze467nery","zw47e47rn","zen47zzedzrybr","w46hnrwty","enryery","wa46je46","we4hn6ye575757","w46eryny","zsweny4r674m7","w50w46","Tfhdh","set sewtwete et eet g","rwry6rnyrytr","w34wettww se ","67346erreyr"]
